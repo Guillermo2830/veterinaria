@@ -1,0 +1,41 @@
+.clientes-container {
+    width: 100%;
+    height: auto;
+}
+
+
+.cliente-1 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/corki.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cliente-1 h1 {
+    
+    color: white;
+    font-size: 38px;
+    
+}
+
+.cliente-1:nth-child(2) {
+    background-image: url('./img/corki-2.avif');
+}
+
+.cliente-1:nth-child(3) {
+    background-image: url('./img/pastor\ aleman.webp');
+}
+
+.cliente-1:nth-child(4) {
+    background-image: url('./img/bulldog-consulta.webp');
+}
+
+.cliente-1:nth-child(5) {
+    background-image: url(./img/baño\ corki.jpg);
+}

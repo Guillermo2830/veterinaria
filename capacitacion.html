@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./prueba-style.css">
+    <link rel="stylesheet" href="./precios-style.css">
+    <link rel="stylesheet" href="./capacitacion-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-container">
+        
+        <header class="header">
+            
+            <a href="./prueba.html"><img src="./img/logo-real-veterinaria.png" alt=""></a> 
+     
+             <ul class="navlist">
+                 <li><a href="./precios.html">Precios</a></li>
+                 <li><a href="./capacitacion.html">Capacitacion</a></li>
+                 <li><a href="./nuestros-clientes.html">Nuestros Clientes</a></li>
+                 <li><a href="./trabaja-con-nosotros.html">Trabaja con nosotros </a></li>
+                 <li><a href="./contacto.html">Contacto</a></li>
+             </ul>
+     
+             <div class="bx bx-menu" id="menu-icon" onclick="toggleMenu"()></div>
+
+        </header>
+     
+      <section class="capacitacion-container">
+
+        <div class="capacitacion-title">
+
+           <h1>CAPACITACION</h1>
+           <P>solicita informacion para aprender sobre Veterianaria.</P>
+           
+        </div>
+
+        <div class="inputs-container">
+
+            <div class="inputs-left">
+              <input type="text" placeholder="Nombres">
+              <input type="text" placeholder="Email">
+              <input type="date" placeholder="Fecha">
+            </div>
+
+            <div class="inputs-right">
+                <div class="label">
+                    <label for="country"></label>
+                <select id="country" name="country">
+                    <option value="CO" selected>Pais</option>
+                    <option value="AF">Argentina</option>
+                    <option value="AL">Venezuela</option>
+                    <option value="DZ">Peru</option>
+                    <option value="AD">Bolivia</option>
+                    <option value="AO">Colombia</option>
+                    <option value="AR">Chile</option>
+                    <option value="AM">Ecuador</option>
+                    <option value="AU">Uruguay</option>
+                    <option value="AT">Brasil</option>
+                    <option value="AZ">Panama</option>
+                </select>
+                </div>
+
+                <input type="number" placeholder="Numero de celular">
+
+            </div>
+
+        </div>
+
+        <div class="button-capacitacion">
+           <button>PEDIR CAPACITACION</button>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+
+      <div class="links">
+        <h1>Links Utiles</h1>
+        <p>Inicio</p>
+        <p>Caracteristicas</p>
+        <p>Precios</p>
+      </div>
+
+      <div class="legal">
+       <h1>Legal</h1>
+       <p>Terminos de uso</p>
+       <p>Politica de Privacidad</p>
+       <p>Contacto</p>
+      </div>
+
+      <div class="social">
+         <h1>Social</h1>
+         <p>Facebook</p>
+         <p>Instagram</p>
+         <p>Whatshapp</p>
+      </div>
+
+    </footer>
+    
+    <script src="./menu.js"></script>
+</body>
+</html>

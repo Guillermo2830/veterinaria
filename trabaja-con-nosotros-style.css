@@ -1,0 +1,111 @@
+.trabaja-con-nosotros-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+    
+}
+
+.title-trabaja-con-nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.title-trabaja-con-nosotros h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.title-trabaja-con-nosotros p {
+
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container-form-cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    gap: 20px;
+    
+}
+
+.form-cv-left {
+    grid-column: 1 ;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-cv-left input {
+    height: 30px;
+    border: 1px solid gainsboro;
+    font-weight: bold;
+    outline:none
+}
+
+
+.form-cv-left input.active {
+   outline: 1px solid blue;
+}
+
+.label {
+    width: 290px;
+    height: 30px;
+    background-color: white;
+}
+
+.label select {
+    width: 341px;
+    height: 30px;
+    border: 1px solid gainsboro;
+}
+
+.form-cv-right {
+    grid-column: 2;
+    display: flex;
+}
+
+.form-cv-right textarea {
+    
+    width: 95%;
+    height: auto; 
+    box-sizing: border-box;
+    overflow-y: auto; 
+    padding: 10px;
+    resize: none; 
+    vertical-align: top;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+
+.form-cv-right textarea.active {
+    outline: 1px solid blue;
+}
+
+.button-postulacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.button-postulacion button {
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #44D3AC ;
+    border: none;
+    box-shadow:28px 28px 60px #bebebe,
+    -28px -28px 60px #ffffff; ;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
